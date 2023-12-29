@@ -1,4 +1,4 @@
-package com.example.authapp.presentation.login
+package com.example.authapp.presentation.common.viewModel
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class MainScreenViewModel @Inject constructor(
+class AuthViewModel @Inject constructor(
     private val repository: AuthRepository
 ): ViewModel() {
 
